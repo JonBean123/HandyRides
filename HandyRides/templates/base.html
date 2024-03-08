@@ -1,0 +1,16 @@
+{% load static %}
+
+<html>
+<head>
+    <script src="{% static 'main.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'main.css' %}"/>
+    <title>ConnectCarpool</title>
+</head>
+<body bgcolor="white" text="black">
+    <center>
+        <h1>ConnectCarpool</h1>
+        {% block content %}
+        {% endblock %}
+    </center>
+</body>
+</html>

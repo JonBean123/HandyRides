@@ -1,0 +1,165 @@
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.05em;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  background-color: #A3CBD2; /* Ensure color codes start with '#' */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  transition-duration: 1s;
+}
+
+.homepage-image:hover {
+  transform: scaleX(-1);
+  transition-duration: 3s;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px; 
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff; /* Example background color */
+  border: 1px solid transparent; /* Example border */
+  width: auto; /* Default width */
+}
+
+/* Responsive adjustments */
+/* Mobile devices */
+@media only screen and (max-width: 600px) {
+  body {
+      font-size: 14px;
+  }
+
+  .button {
+      padding: 8px 12px;
+      font-size: 14px;
+      width: 100%; /* Button fills 100% of its container's width */
+  }
+}
+
+.button:hover {background-color: #2247ff}
+
+.button:active {
+background-color: #2247ff;
+transform: translateY(2px);
+}
+
+.navbar {
+  background-color: rgb(10, 72, 204); 
+  overflow: hidden; 
+}
+
+/* NAVBAR */
+.navbar a {
+  float: left; 
+  display: block; 
+  color: rgb(255, 255, 255); 
+  text-align: left; 
+  padding: 14px 16px; 
+  text-decoration: none; 
+}
+
+
+.navbar a:hover {
+  background-color: #ddd; 
+  color: black; 
+}
+
+/* RESULT TABLE*/
+table {
+    width: 70%; 
+    border-collapse: collapse; 
+    table-layout: auto; 
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left; 
+    padding: 8px; 
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+tr:hover {
+    background-color: #ddd; 
+}
+
+/* TABLE HEADER*/
+th {
+    background-color: rgb(10, 72, 204); 
+    color: white; 
+}
+
+
+/* CREATE RIDE FORM*/
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 6px;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: rgb(10, 72, 204);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  width: auto; /* Default width */
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 600px) {
+  input[type="submit"] {
+    width: 100%; /* Make the button expand to the full width of the screen */
+  }
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="time"], select,
+input[type="number"] {
+    width: 60%; 
+    padding: 12px 20px; 
+    margin: 4px 0; 
+    display: inline-block;
+    border: 1px solid #ccc; 
+    border-radius: 25px; 
+    box-sizing: border-box; 
+}
+
+
+
+
+
+
+
+

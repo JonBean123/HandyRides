@@ -1,0 +1,84 @@
+{% extends "index_view.html" %}
+{% load static %}
+
+<html>
+<head>
+    <title>ConnectCarpool</title>
+    <link rel="stylesheet" href="{% static 'main.css' %}"/>
+    <script src="{% static 'main.js' %}"></script>
+</head>
+<body>
+  {% block content %}
+  <div class = 'form-container'>
+    <center>
+      <h2>Post a Ride</h2>
+        <form action="{% url 'rides:create' %}" method="post">
+          {% csrf_token %}
+          <div>
+            <label for="{{ new_ride_form.first_name.id_for_label }}">First name:</label>
+            {{ new_ride_form.first_name }}
+          </div>
+          <div>
+            <label for="{{ new_ride_form.last_name.id_for_label }}">Last name:</label>
+            {{ new_ride_form.last_name }}
+          </div>
+          <div>
+            <label for="{{ new_ride_form.email.id_for_label }}">Email:</label>
+            {{ new_ride_form.email }}
+          </div>
+          <div>
+            <label for="{{ new_ride_form.phone_number.id_for_label }}">Phone Number:</label>
+            {{ new_ride_form.phone_number }}
+          </div>
+          <div>
+            <label for="{{ new_ride_form.origination_city.id_for_label }}">Origination City:</label>
+            {{ new_ride_form.origination_city }}
+          </div>
+          <div>
+            <label for="{{ new_ride_form.origination_state.id_for_label }}">Origination State:</label>
+            {{ new_ride_form.origination_state }}
+          </div>
+          <div>
+            <label for="{{ new_ride_form.destination_city.id_for_label }}">Destination City:</label>
+            {{ new_ride_form.destination_city }}
+          </div>
+          <div>
+            <label for="{{ new_ride_form.destination_state.id_for_label }}">Destination State:</label>
+            {{ new_ride_form.destination_state }}
+          </div>
+          <div>
+            <label for="{{ new_ride_form.vehicle_type.id_for_label }}">Vehicle Type:</label>
+            {{ new_ride_form.vehicle_type }}
+          </div>
+          <div>
+            <label for="{{ new_ride_form.vehicle_model.id_for_label }}">Vehicle Model:</label>
+            {{ new_ride_form.vehicle_model }}
+          </div>
+          <div>
+            <label for="{{ new_ride_form.date.id_for_label }}"> Date:</label>
+            {{ new_ride_form.date }}
+          </div>
+          <div>
+            <label for="{{ new_ride_form.time.id_for_label }}"> Time:</label>
+            {{ new_ride_form.time }}
+          </div>
+          <div>
+            <label for="{{ new_ride_form.taking_passengers.id_for_label }}"> Taking Passengers:</label>
+            {{ new_ride_form.taking_passengers }}
+          </div>
+          <div>
+            <label for="{{ new_ride_form.seats_available.id_for_label }}"> Seats Available:</label>
+            {{ new_ride_form.seats_available }}
+          </div>
+          <input type="submit" value="Post Ride">
+        </form>
+    </center>
+    </div>
+  {% endblock %}
+
+</body>
+</html>
+
+
+
+

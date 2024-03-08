@@ -1,0 +1,23 @@
+{% extends "index_view.html" %}
+{% load static %}
+
+<html>
+<head>
+    <title>ConnectCarpool</title>
+    <link rel="stylesheet" href="{% static 'main.css' %}"/>
+    <script src="{% static 'main.js' %}"></script>
+</head>
+<body>
+  {% block content %}
+  <center>
+    <img src="{% static 'AI_car_image.jpeg' %}" width =450 height =400 alt="ConnectCarpool.com Company Logo"><br>
+    <sub>This image was pulled off of ACV Auctions</sub>
+  </center>
+  {% endblock %}
+
+</body>
+</html>
+
+
+
+

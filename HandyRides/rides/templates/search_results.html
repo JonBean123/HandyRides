@@ -1,0 +1,55 @@
+{% load static %}
+
+<html>
+<head>
+  <title>ConnectCarpool</title>
+  <link rel="stylesheet" href="{% static 'main.css' %}"/>
+  <script src="{% static 'main.js' %}"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="{% url 'rides:index' %}">Find Ride</a>
+    <a href="{% url 'rides:create_rides' %}">Create Ride</a>
+  </nav>
+  {% block content %}
+  <center>
+    <h1>ConnectCarpool</h1>
+    <img src="{% static 'Hrides_search.jpg' %}" width =450 height =400 alt="TheCarpool.com Company Logo"><br>
+    <div class="main"> 
+      <table>
+      <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Origination City</th>
+            <th>Origination State</th>
+            <th>Destination City</th>
+            <th>Destination State</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Taking Passengers</th>
+            <th>Seats Available</th>
+          </tr>
+        </thead>
+          {% for person in people %}
+          <tr>
+              <td>{{ person.first_name }}</td> 
+              <td>{{ person.origination_city}}</td>
+              <td>{{ person.origination_state}}</td>
+              <td>{{ person.destination_city }}</td> 
+              <td>{{ person.destination_state }}</td> 
+              <td>{{ person.date }}</td> 
+              <td>{{ person.time }}</td> 
+              <td>{{ person.taking_passengers }}</td>
+              <td>{{ person.seats_available }}</td> 
+          </tr>
+          {% endfor %} 
+      </table>
+    </div> 
+  </center>
+  
+  {% endblock %}
+</body>
+</html>
+
+
+

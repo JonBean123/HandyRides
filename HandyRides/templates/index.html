@@ -1,0 +1,26 @@
+
+<!--copies the base html format and now one can iterate on it-->
+{% extends "base.html" %}
+{% load static %}
+
+<html>
+<head>
+    <script src="{% static 'main.js' %}"></script>
+</head>
+<body bgcolor="white" text="black">
+    <center>
+        {% block content %}
+        <img src="{% static 'pixlr-image-generator-65d41d355b01a801800720ab.png' %}" width =450 height =400 alt="TheCarpool.com Company Logo" class = "homepage-image"><br>
+        <h2> Welcome</h2>
+        <h2> ConnectCarpool is a company dedicated to helping you find people with enough in common to casually share rides. Whether you are going to a sports event or attending an important business conference, ConnectCarpool helps you find people who are attending the same event and coordinate travel together.</h2>
+        <a href="{% url 'rides:index' %}" class="button">Find Your Ride!</a>
+        <script>
+            // When the window loads, check the cookie
+            window.onload = function() {
+                checkCookie();
+            };
+        </script>
+        {% endblock %}
+    </center>
+</body>
+</html>

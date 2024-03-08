@@ -1,0 +1,422 @@
+[
+  {
+    "model": "rides.person",
+    "pk": 1,
+    "fields": {
+      "first_name": "William",
+      "origination": "San Diego",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-09-01",
+      "time": "11:13 AM",
+      "taking_passengers": false,
+      "seats_available": 0
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 2,
+    "fields": {
+      "first_name": "Jon",
+      "origination": "Los Angeles",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-30",
+      "time": "09:17 PM",
+      "taking_passengers": true,
+      "seats_available": 2
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 3,
+    "fields": {
+      "first_name": "Derek",
+      "origination": "Houston",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-31",
+      "time": "10:59 PM",
+      "taking_passengers": true,
+      "seats_available": 3
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 4,
+    "fields": {
+      "first_name": "Barbara",
+      "origination": "Houston",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-30",
+      "time": "09:41 PM",
+      "taking_passengers": false,
+      "seats_available": 0
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 5,
+    "fields": {
+      "first_name": "Antonio",
+      "origination": "Dallas",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-09-01",
+      "time": "02:38 AM",
+      "taking_passengers": true,
+      "seats_available": 2
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 6,
+    "fields": {
+      "first_name": "Barbara",
+      "origination": "San Diego",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-31",
+      "time": "08:10 PM",
+      "taking_passengers": true,
+      "seats_available": 1
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 7,
+    "fields": {
+      "first_name": "Jessica",
+      "origination": "San Jose",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-09-01",
+      "time": "05:46 PM",
+      "taking_passengers": true,
+      "seats_available": 3
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 8,
+    "fields": {
+      "first_name": "Whitney",
+      "origination": "Los Angeles",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-30",
+      "time": "07:10 AM",
+      "taking_passengers": true,
+      "seats_available": 4
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 9,
+    "fields": {
+      "first_name": "Jeremy",
+      "origination": "Philadelphia",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-31",
+      "time": "02:24 PM",
+      "taking_passengers": true,
+      "seats_available": 1
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 10,
+    "fields": {
+      "first_name": "Samuel",
+      "origination": "Los Angeles",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-30",
+      "time": "08:59 AM",
+      "taking_passengers": false,
+      "seats_available": 0
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 11,
+    "fields": {
+      "first_name": "Keith",
+      "origination": "Houston",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-30",
+      "time": "08:44 PM",
+      "taking_passengers": true,
+      "seats_available": 1
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 12,
+    "fields": {
+      "first_name": "Samantha",
+      "origination": "San Antonio",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-31",
+      "time": "05:14 PM",
+      "taking_passengers": false,
+      "seats_available": 0
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 13,
+    "fields": {
+      "first_name": "Brandon",
+      "origination": "Los Angeles",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-30",
+      "time": "09:20 PM",
+      "taking_passengers": false,
+      "seats_available": 0
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 14,
+    "fields": {
+      "first_name": "Samuel",
+      "origination": "Chicago",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-09-01",
+      "time": "01:14 AM",
+      "taking_passengers": false,
+      "seats_available": 0
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 15,
+    "fields": {
+      "first_name": "Mike",
+      "origination": "San Diego",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-30",
+      "time": "01:51 AM",
+      "taking_passengers": false,
+      "seats_available": 0
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 16,
+    "fields": {
+      "first_name": "Laura",
+      "origination": "San Antonio",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-09-01",
+      "time": "10:25 AM",
+      "taking_passengers": true,
+      "seats_available": 3
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 17,
+    "fields": {
+      "first_name": "Tonya",
+      "origination": "Houston",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-09-01",
+      "time": "08:04 AM",
+      "taking_passengers": true,
+      "seats_available": 3
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 18,
+    "fields": {
+      "first_name": "Daniel",
+      "origination": "San Antonio",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-30",
+      "time": "06:58 AM",
+      "taking_passengers": false,
+      "seats_available": 0
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 19,
+    "fields": {
+      "first_name": "Steven",
+      "origination": "San Jose",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-09-01",
+      "time": "06:56 PM",
+      "taking_passengers": false,
+      "seats_available": 0
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 20,
+    "fields": {
+      "first_name": "Keith",
+      "origination": "Los Angeles",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-31",
+      "time": "10:20 PM",
+      "taking_passengers": true,
+      "seats_available": 2
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 21,
+    "fields": {
+      "first_name": "Lisa",
+      "origination": "San Jose",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-09-01",
+      "time": "06:41 AM",
+      "taking_passengers": false,
+      "seats_available": 0
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 22,
+    "fields": {
+      "first_name": "Kayla",
+      "origination": "San Diego",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-09-01",
+      "time": "03:25 PM",
+      "taking_passengers": false,
+      "seats_available": 0
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 23,
+    "fields": {
+      "first_name": "Kenneth",
+      "origination": "Phoenix",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-09-01",
+      "time": "08:29 PM",
+      "taking_passengers": true,
+      "seats_available": 1
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 24,
+    "fields": {
+      "first_name": "Jill",
+      "origination": "Chicago",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-31",
+      "time": "04:16 AM",
+      "taking_passengers": false,
+      "seats_available": 0
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 25,
+    "fields": {
+      "first_name": "David",
+      "origination": "Austin",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-31",
+      "time": "04:15 AM",
+      "taking_passengers": true,
+      "seats_available": 2
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 26,
+    "fields": {
+      "first_name": "Faith",
+      "origination": "Phoenix",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-31",
+      "time": "11:35 PM",
+      "taking_passengers": false,
+      "seats_available": 0
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 27,
+    "fields": {
+      "first_name": "Samantha",
+      "origination": "Los Angeles",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-30",
+      "time": "05:16 PM",
+      "taking_passengers": true,
+      "seats_available": 1
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 28,
+    "fields": {
+      "first_name": "Candace",
+      "origination": "Los Angeles",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-31",
+      "time": "11:37 PM",
+      "taking_passengers": true,
+      "seats_available": 1
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 29,
+    "fields": {
+      "first_name": "Renee",
+      "origination": "San Jose",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-09-01",
+      "time": "01:57 PM",
+      "taking_passengers": false,
+      "seats_available": 0
+    }
+  },
+  {
+    "model": "rides.person",
+    "pk": 30,
+    "fields": {
+      "first_name": "Madison",
+      "origination": "San Diego",
+      "destination_city": "New York",
+      "destination_state": "NY",
+      "date": "2023-08-31",
+      "time": "06:25 PM",
+      "taking_passengers": true,
+      "seats_available": 4
+    }
+  }
+]
